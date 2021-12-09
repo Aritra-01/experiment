@@ -1,6 +1,6 @@
 <p align="center">
 
-  <img src="logo.jpg" alt="উন্মেষ Media Search">
+  "উন্মেষ Media Search">
 
 </p>
 
@@ -24,8 +24,12 @@
 ## Installation
 
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/26souravk/experiment)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Aritra-01/experiment)
+### Hard Way )
+28
 ### Hard Way
+29
+
 
 ```bash
 # Create virtual environment
