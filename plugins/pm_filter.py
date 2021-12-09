@@ -120,7 +120,7 @@ async def filter(client, message):
 
         else:
 
-            await client.send_sticker(chat_id=message.from_user.id, sticker='CAACAgUAAxkBAAEDb2JhsGCmuv8OAc6GHPjO-qmJzzHw8AAC9gMAAiW7IVROYabbaDyVPiME')
+            await client.send_sticker(chat_id=message.from_user.id, sticker='CAACAgUAAxkBAAEDcZRhsgpcPiIg_ZCJt7sFTtGirmnG1AAC6AQAAgnkkVXFpNmMPGhejiME')
 
             return
 
