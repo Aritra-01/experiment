@@ -1,3 +1,16 @@
+<p align="center">
+
+  <img src="logo.jpg" alt="উন্মেষ Media Search">
+
+</p>
+
+<h1 align="center">
+
+  <b>উন্মেষ Media Search</b>
+
+</h1>
+
+
 ## Added Features
 * Imdb posters for autofilter.
 * Custom captions for your files.
