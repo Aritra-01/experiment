@@ -1,8 +1,5 @@
-<p align="center">
 
-  "উন্মেষ Media Search">
 
-</p>
 
 <h1 align="center">
 
