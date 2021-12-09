@@ -132,7 +132,7 @@ async def start(bot, cmd):
 
                     [
 
-                        InlineKeyboardButton('🌊জলতরঙ্গ🌊', url='https://t.me/JolToronto'),
+                        InlineKeyboardButton('🌊জলতরঙ্গ🌊', url='https://t.me/JolTorongo'),
 
                         InlineKeyboardButton('⚡️Update⚡️', url='https://t.me/HoiChoiTvAddaa')
 
@@ -198,9 +198,9 @@ async def start(bot, cmd):
 
                     [
 
-                        InlineKeyboardButton("🌊জলতরঙ্গ🌊", url='https://t.me/JolToronto'),
+                        InlineKeyboardButton("🌊জলতরঙ্গ🌊", url='https://t.me/JolTorongo'),
 
-                        InlineKeyboardButton("Owner", url="https://t.me/HoiChoiTvAddaa")
+                        InlineKeyboardButton("💢Owner💢", url="https://t.me/HoiChoiTvAddaa")
 
                     ],
 
@@ -358,12 +358,12 @@ async def bot_info(bot, message):
 
         [
 
-            InlineKeyboardButton('🌊জলতরঙ্গ🌊', url='https://t.me/JolToronto'),
+            InlineKeyboardButton('🌊জলতরঙ্গ🌊', url='https://t.me/JolTorongo'),
 
-            InlineKeyboardButton('⚡️Owner⚡️', url='https://t.me/HoiChoiTvAddaa')
-
-        ]
+            InlineKeyboardButton('💢Owner💢', url='https://t.me/HoiChoiTvAddaa')
 
         ]
 
-    await message.reply(text="<b>Developer : <a href='https://t.me/HoiChoiTvAddaa'>উন্মেষ</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n⚡️Owner⚡️ : <a href='https://t.me/HoiChoiTvAddaa'>@HoiChoiTvAddaa</a>\nMain Channel : <a href='https://t.me/JolToronto'>🌊জলতরঙ্গ🌊</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+        ]
+
+    await message.reply(text="<b>Developer : <a href='https://t.me/HoiChoiTvAddaa'>উন্মেষ</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n💢Owner💢 : <a href='https://t.me/HoiChoiTvAddaa'>@HoiChoiTvAddaa</a>\nMain Channel : <a href='https://t.me/JolTorongo'>🌊জলতরঙ্গ🌊</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
