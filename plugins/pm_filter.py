@@ -160,11 +160,11 @@ async def filter(client, message):
 
             if poster:
 
-                await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In @JolToronto's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In @JolTorongo's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
 
-                await message.reply_text(f"<b>Here is What I Found In @JolToronto's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>Here is What I Found In @JolTorongo's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
             return
 
@@ -192,11 +192,11 @@ async def filter(client, message):
 
         if poster:
 
-            await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In @JolToronto's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In @JolTorongo's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
         else:
 
-            await message.reply_text(f"<b>Here is What I Found In @JolToronto's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_text(f"<b>Here is What I Found In @JolTorongo's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
 @Client.on_message(filters.text & filters.group & filters.incoming & filters.chat(AUTH_GROUPS) if AUTH_GROUPS else filters.text & filters.group & filters.incoming)
 
@@ -278,11 +278,11 @@ async def group(client, message):
 
             if poster:
 
-                await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In @JolToronto's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In @JolTorongo's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
 
-                await message.reply_text(f"<b>Here is What I Found In @JolToronto's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>Here is What I Found In @JolTorongo's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
             return
 
@@ -310,11 +310,11 @@ async def group(client, message):
 
         if poster:
 
-            await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In @JolToronto's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In @JolTorongo's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
         else:
 
-            await message.reply_text(f"<b>Here is What I Found In @JolToronto's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_text(f"<b>Here is What I Found In @JolTorongo's Premium Database For Your Query {search} ‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
     
 
@@ -490,15 +490,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
                 [
 
-                    InlineKeyboardButton('🌊জলতরঙ্গ🌊', url='https://t.me/JolToronto'),
+                    InlineKeyboardButton('🌊জলতরঙ্গ🌊', url='https://t.me/JolTorongo'),
 
-                    InlineKeyboardButton('⚡️Owner⚡️', url='https://t.me/HoiChoiTvAddaa')
-
-                ]
+                    InlineKeyboardButton('💢Owner💢', url='https://t.me/HoiChoiTvAddaa')
 
                 ]
 
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/HoiChoiTvAddaa'>উন্মেষ</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nGroup : <a href='https://t.me/JolToronto'>Click Here</a>\nUpdate Channel : <a href='https://t.me/HoiChoiTvAddaa'>উন্মেষ</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+                ]
+
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/HoiChoiTvAddaa'>উন্মেষ</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nGroup : <a href='https://t.me/JolTorongo'>Click Here</a>\nUpdate Channel : <a href='https://t.me/HoiChoiTvAddaa'>উন্মেষ</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data.startswith("subinps"):
 
@@ -534,9 +534,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
                     [
 
-                        InlineKeyboardButton('🌊জলতরঙ্গ🌊', url='https://t.me/JolToronto'),
+                        InlineKeyboardButton('🌊জলতরঙ্গ🌊', url='https://t.me/JolTorongo'),
 
-                        InlineKeyboardButton('⚡️Owner⚡️', url='https://t.me/HoiChoiTvAddaa')
+                        InlineKeyboardButton('💢Owner💢', url='https://t.me/HoiChoiTvAddaa')
 
                     ]
 
@@ -598,9 +598,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
                     [
 
-                        InlineKeyboardButton('🌊জলতরঙ্গ🌊', url='https://t.me/JolToronto'),
+                        InlineKeyboardButton('🌊জলতরঙ্গ🌊', url='https://t.me/JolTorongo'),
 
-                        InlineKeyboardButton('⚡️Owner⚡️', url='https://t.me/HoiChoiTvAddaa')
+                        InlineKeyboardButton('💢Owner💢', url='https://t.me/HoiChoiTvAddaa')
 
                     ]
 
