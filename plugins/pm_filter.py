@@ -498,7 +498,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
                 ]
 
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/HoiChoiTvAddaa'>উন্মেষ</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nGroup : <a href='https://t.me/JolTorongo'>Click Here</a>\nUpdate Channel : <a href='https://t.me/HoiChoiTvAddaa'>উন্মেষ</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/HoiChoiTvAddaa'>💗উন্মেষ💗</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nGroup : <a href='https://t.me/JolTorongo'>🌊জলতরঙ্গ🌊</a>\nUpdate Channel : <a href='https://t.me/HoiChoiTvAddaa'>উন্মেষ</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data.startswith("subinps"):
 
